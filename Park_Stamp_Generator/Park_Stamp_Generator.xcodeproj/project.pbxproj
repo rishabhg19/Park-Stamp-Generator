@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E06DF2572848219700882937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DF2562848219700882937 /* AppDelegate.swift */; };
+		E06DF2592848219700882937 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DF2582848219700882937 /* SceneDelegate.swift */; };
+		E06DF25B2848219700882937 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DF25A2848219700882937 /* DataViewController.swift */; };
+		E06DF25E2848219700882937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06DF25C2848219700882937 /* Main.storyboard */; };
+		E06DF2612848219700882937 /* Park_Stamp_Generator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E06DF25F2848219700882937 /* Park_Stamp_Generator.xcdatamodeld */; };
+		E06DF263284821A100882937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06DF262284821A100882937 /* Assets.xcassets */; };
+		E06DF266284821A100882937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06DF264284821A100882937 /* LaunchScreen.storyboard */; };
+		E06DF271284821A100882937 /* Park_Stamp_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DF270284821A100882937 /* Park_Stamp_GeneratorTests.swift */; };
+		E06DF27C284821A100882937 /* Park_Stamp_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DF27B284821A100882937 /* Park_Stamp_GeneratorUITests.swift */; };
+		E06DF2B42848254100882937 /* nflcharg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E06DF29E284824B800882937 /* nflcharg.ttf */; };
+		E06DF2BF284974F900882937 /* StampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DF2BE284974F900882937 /* StampViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E06DF26D284821A100882937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E06DF24B2848219700882937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06DF2522848219700882937;
+			remoteInfo = Park_Stamp_Generator;
+		};
+		E06DF278284821A100882937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E06DF24B2848219700882937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06DF2522848219700882937;
+			remoteInfo = Park_Stamp_Generator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E06DF2532848219700882937 /* Park_Stamp_Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Park_Stamp_Generator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06DF2562848219700882937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E06DF2582848219700882937 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E06DF25A2848219700882937 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		E06DF25D2848219700882937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E06DF2602848219700882937 /* Park_Stamp_Generator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Park_Stamp_Generator.xcdatamodel; sourceTree = "<group>"; };
+		E06DF262284821A100882937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E06DF265284821A100882937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E06DF267284821A100882937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06DF26C284821A100882937 /* Park_Stamp_GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Park_Stamp_GeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06DF270284821A100882937 /* Park_Stamp_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park_Stamp_GeneratorTests.swift; sourceTree = "<group>"; };
+		E06DF272284821A100882937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06DF277284821A100882937 /* Park_Stamp_GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Park_Stamp_GeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06DF27B284821A100882937 /* Park_Stamp_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park_Stamp_GeneratorUITests.swift; sourceTree = "<group>"; };
+		E06DF27D284821A100882937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06DF29E284824B800882937 /* nflcharg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nflcharg.ttf; sourceTree = "<group>"; };
+		E06DF2BE284974F900882937 /* StampViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06DF2502848219700882937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06DF269284821A100882937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06DF274284821A100882937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E06DF24A2848219700882937 = {
+			isa = PBXGroup;
+			children = (
+				E06DF2552848219700882937 /* Park_Stamp_Generator */,
+				E06DF29D284824B800882937 /* Fonts */,
+				E06DF26F284821A100882937 /* Park_Stamp_GeneratorTests */,
+				E06DF27A284821A100882937 /* Park_Stamp_GeneratorUITests */,
+				E06DF2542848219700882937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E06DF2542848219700882937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06DF2532848219700882937 /* Park_Stamp_Generator.app */,
+				E06DF26C284821A100882937 /* Park_Stamp_GeneratorTests.xctest */,
+				E06DF277284821A100882937 /* Park_Stamp_GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06DF2552848219700882937 /* Park_Stamp_Generator */ = {
+			isa = PBXGroup;
+			children = (
+				E06DF2562848219700882937 /* AppDelegate.swift */,
+				E06DF2582848219700882937 /* SceneDelegate.swift */,
+				E06DF25A2848219700882937 /* DataViewController.swift */,
+				E06DF2BE284974F900882937 /* StampViewController.swift */,
+				E06DF25C2848219700882937 /* Main.storyboard */,
+				E06DF262284821A100882937 /* Assets.xcassets */,
+				E06DF264284821A100882937 /* LaunchScreen.storyboard */,
+				E06DF267284821A100882937 /* Info.plist */,
+				E06DF25F2848219700882937 /* Park_Stamp_Generator.xcdatamodeld */,
+			);
+			path = Park_Stamp_Generator;
+			sourceTree = "<group>";
+		};
+		E06DF26F284821A100882937 /* Park_Stamp_GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E06DF270284821A100882937 /* Park_Stamp_GeneratorTests.swift */,
+				E06DF272284821A100882937 /* Info.plist */,
+			);
+			path = Park_Stamp_GeneratorTests;
+			sourceTree = "<group>";
+		};
+		E06DF27A284821A100882937 /* Park_Stamp_GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E06DF27B284821A100882937 /* Park_Stamp_GeneratorUITests.swift */,
+				E06DF27D284821A100882937 /* Info.plist */,
+			);
+			path = Park_Stamp_GeneratorUITests;
+			sourceTree = "<group>";
+		};
+		E06DF29D284824B800882937 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E06DF29E284824B800882937 /* nflcharg.ttf */,
+			);
+			name = Fonts;
+			path = ../Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06DF2522848219700882937 /* Park_Stamp_Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06DF280284821A100882937 /* Build configuration list for PBXNativeTarget "Park_Stamp_Generator" */;
+			buildPhases = (
+				E06DF24F2848219700882937 /* Sources */,
+				E06DF2502848219700882937 /* Frameworks */,
+				E06DF2512848219700882937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Park_Stamp_Generator;
+			productName = Park_Stamp_Generator;
+			productReference = E06DF2532848219700882937 /* Park_Stamp_Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E06DF26B284821A100882937 /* Park_Stamp_GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06DF283284821A100882937 /* Build configuration list for PBXNativeTarget "Park_Stamp_GeneratorTests" */;
+			buildPhases = (
+				E06DF268284821A100882937 /* Sources */,
+				E06DF269284821A100882937 /* Frameworks */,
+				E06DF26A284821A100882937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06DF26E284821A100882937 /* PBXTargetDependency */,
+			);
+			name = Park_Stamp_GeneratorTests;
+			productName = Park_Stamp_GeneratorTests;
+			productReference = E06DF26C284821A100882937 /* Park_Stamp_GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E06DF276284821A100882937 /* Park_Stamp_GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06DF286284821A100882937 /* Build configuration list for PBXNativeTarget "Park_Stamp_GeneratorUITests" */;
+			buildPhases = (
+				E06DF273284821A100882937 /* Sources */,
+				E06DF274284821A100882937 /* Frameworks */,
+				E06DF275284821A100882937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06DF279284821A100882937 /* PBXTargetDependency */,
+			);
+			name = Park_Stamp_GeneratorUITests;
+			productName = Park_Stamp_GeneratorUITests;
+			productReference = E06DF277284821A100882937 /* Park_Stamp_GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E06DF24B2848219700882937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E06DF2522848219700882937 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E06DF26B284821A100882937 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E06DF2522848219700882937;
+					};
+					E06DF276284821A100882937 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E06DF2522848219700882937;
+					};
+				};
+			};
+			buildConfigurationList = E06DF24E2848219700882937 /* Build configuration list for PBXProject "Park_Stamp_Generator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E06DF24A2848219700882937;
+			productRefGroup = E06DF2542848219700882937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06DF2522848219700882937 /* Park_Stamp_Generator */,
+				E06DF26B284821A100882937 /* Park_Stamp_GeneratorTests */,
+				E06DF276284821A100882937 /* Park_Stamp_GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06DF2512848219700882937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06DF266284821A100882937 /* LaunchScreen.storyboard in Resources */,
+				E06DF2B42848254100882937 /* nflcharg.ttf in Resources */,
+				E06DF263284821A100882937 /* Assets.xcassets in Resources */,
+				E06DF25E2848219700882937 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06DF26A284821A100882937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06DF275284821A100882937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06DF24F2848219700882937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06DF25B2848219700882937 /* DataViewController.swift in Sources */,
+				E06DF2572848219700882937 /* AppDelegate.swift in Sources */,
+				E06DF2592848219700882937 /* SceneDelegate.swift in Sources */,
+				E06DF2612848219700882937 /* Park_Stamp_Generator.xcdatamodeld in Sources */,
+				E06DF2BF284974F900882937 /* StampViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06DF268284821A100882937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06DF271284821A100882937 /* Park_Stamp_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06DF273284821A100882937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06DF27C284821A100882937 /* Park_Stamp_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E06DF26E284821A100882937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06DF2522848219700882937 /* Park_Stamp_Generator */;
+			targetProxy = E06DF26D284821A100882937 /* PBXContainerItemProxy */;
+		};
+		E06DF279284821A100882937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06DF2522848219700882937 /* Park_Stamp_Generator */;
+			targetProxy = E06DF278284821A100882937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E06DF25C2848219700882937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06DF25D2848219700882937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E06DF264284821A100882937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06DF265284821A100882937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E06DF27E284821A100882937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E06DF27F284821A100882937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06DF281284821A100882937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSQ3S7X8DG;
+				INFOPLIST_FILE = Park_Stamp_Generator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rishabh-Ganesh.Park-Stamp-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E06DF282284821A100882937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSQ3S7X8DG;
+				INFOPLIST_FILE = Park_Stamp_Generator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rishabh-Ganesh.Park-Stamp-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E06DF284284821A100882937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSQ3S7X8DG;
+				INFOPLIST_FILE = Park_Stamp_GeneratorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rishabh-Ganesh.Park-Stamp-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park_Stamp_Generator.app/Park_Stamp_Generator";
+			};
+			name = Debug;
+		};
+		E06DF285284821A100882937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSQ3S7X8DG;
+				INFOPLIST_FILE = Park_Stamp_GeneratorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rishabh-Ganesh.Park-Stamp-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park_Stamp_Generator.app/Park_Stamp_Generator";
+			};
+			name = Release;
+		};
+		E06DF287284821A100882937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSQ3S7X8DG;
+				INFOPLIST_FILE = Park_Stamp_GeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rishabh-Ganesh.Park-Stamp-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Park_Stamp_Generator;
+			};
+			name = Debug;
+		};
+		E06DF288284821A100882937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSQ3S7X8DG;
+				INFOPLIST_FILE = Park_Stamp_GeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rishabh-Ganesh.Park-Stamp-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Park_Stamp_Generator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06DF24E2848219700882937 /* Build configuration list for PBXProject "Park_Stamp_Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06DF27E284821A100882937 /* Debug */,
+				E06DF27F284821A100882937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06DF280284821A100882937 /* Build configuration list for PBXNativeTarget "Park_Stamp_Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06DF281284821A100882937 /* Debug */,
+				E06DF282284821A100882937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06DF283284821A100882937 /* Build configuration list for PBXNativeTarget "Park_Stamp_GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06DF284284821A100882937 /* Debug */,
+				E06DF285284821A100882937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06DF286284821A100882937 /* Build configuration list for PBXNativeTarget "Park_Stamp_GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06DF287284821A100882937 /* Debug */,
+				E06DF288284821A100882937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E06DF25F2848219700882937 /* Park_Stamp_Generator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E06DF2602848219700882937 /* Park_Stamp_Generator.xcdatamodel */,
+			);
+			currentVersion = E06DF2602848219700882937 /* Park_Stamp_Generator.xcdatamodel */;
+			path = Park_Stamp_Generator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E06DF24B2848219700882937 /* Project object */;
+}
